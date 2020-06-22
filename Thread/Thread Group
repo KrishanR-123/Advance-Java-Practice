@@ -1,1 +1,3 @@
 package com.company;
+
+public class ThreadX extends Thread{
