@@ -1,6 +1,6 @@
 package com.company;
 
-public class ThreadX extends Thread{
+class ThreadX extends Thread{
 public void run(){
         System.out.println("It is ThreadX class");
     }
