@@ -4,3 +4,5 @@ public class ThreadX extends Thread{
 public void run(){
         System.out.println("It is ThreadX class");
     }
+
+ public static void main(String args[]){
