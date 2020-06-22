@@ -6,3 +6,5 @@ public void run(){
     }
 
  public static void main(String args[]){
+ Thread th = new Thread (new ThreadX(), "FirstThread");
+        Thread t1 = new Thread(new ThreadX());
