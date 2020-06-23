@@ -15,3 +15,17 @@ class sum extends Thread
         System.out.println(Thread.currentThread());
     }
 }
+
+class Main
+{
+    public static void main(String[] args)
+    {
+      Thread th=new Thread (new sum());
+
+        System.out.println(Thread.currentThread());
+        System.out.println(th.getName());
+      th.start();
+
+
+    }
+}
